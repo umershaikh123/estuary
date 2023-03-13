@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { Box, Container } from "@mui/material";
 
 import Navbar from "@/components/Navbar";
+import HomeHero from "@/components/HomeHero";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
           {/* <div className=" h-96 bg-neon rounded-xl w-96 absolute top-0 left-0 blur-custom  border-2 border-stone-200"></div> */}
 
           <Navbar />
+          <HomeHero />
 
           <div className="   h-80 bg-emerald rounded-xl w-56 absolute top-50 right-0 -mr-24 blur-custom  opacity-100"></div>
           <div className="  h-80  bg-neon rounded-xl w-56 absolute bottom-0 left-0 -mr-24 blur-custom  opacity-100"></div>

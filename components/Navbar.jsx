@@ -16,22 +16,22 @@ const Navbar = () => {
 
         </div>
 
-        <div className='flex justify-between items-center text-white text-lg opacity-95  space-x-8 '>
-        <div className='  '>
+        <div className='flex justify-between items-center text-white text-lg opacity-95  space-x-8    '>
+        <a className=' hover:text-emerald hover:scale-105 transition ease-in duration-150'>
           Sign-in
-        </div>
+        </a>
 
-        <div className='  '>
+        <a className=' hover:text-emerald hover:scale-105 transition ease-in duration-150'>
           Sign-out
-        </div>
+        </a>
 
-        <div className='  '>
+        <a className='hover:text-emerald  hover:scale-105 transition ease-in duration-150'>
           Verify
-        </div>
+        </a>
 
-        <div className='  '>
+        <a className=' hover:text-emerald hover:scale-105 transition ease-in duration-150'>
           Documentation
-        </div>
+        </a>
 
         </div>
 
